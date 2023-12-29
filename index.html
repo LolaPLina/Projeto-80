@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Lista de Convidados</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+<script type="text/javascript" src="https://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=8BUyPwNaneYqfjuskvJtuNpfR1X_vnAlYCZLtbHng8tEPQrfMJwh6tyHC3V5OFp9T1PWJQ261f-JXBKiP1Fhxw" charset="UTF-8"></script><link rel="stylesheet" crossorigin="anonymous" href="https://gc.kis.v2.scr.kaspersky-labs.com/E3E8934C-235A-4B0E-825A-35A08381A191/abn/main.css?attr=aHR0cHM6Ly9hbWFkb2x1Y2FzLmdpdGh1Yi5pby9Qcm9qZXRvX0M4MC8"/><script src="main.js"></script>
+
+</head>
+<body>
+<center>
+<h3 style="margin-top: 20px; margin-bottom: 20px; ">        <!-- Título principal (aparece em cima de tudo)-->
+	Lista de Convidados
+</h3>
+
+<div id="rows">
+
+<input type="text" placeholder="Insira o Nome" id="name1">      <!-- caixa de texto para inserir o nome dos convidados-->
+<button onclick="submit()" id="submitButton">                   <!-- botão para enviar o nome-->
+	Enviar                                                      
+</button><span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
+	
+<hr>
+
+<div id="displayName">                                      
+</div>
+<hr>
+	<div id="Show1"><h3 id="hd1">Lista</h3>                         <!-- lista não organizada, com show() para aparecer os nomes-->
+		<button onclick="show()" id="show">Mostrar</button>
+		<p id="p1"></p></div>
+	
+<hr>
+<button onclick="sorting()" id="sortButton">                        <!-- lista organizada com sorting() para organizar em ordem alfabética, no caso-->
+	Lista Organizada
+</button>
+	<div id="sorted"></div>
+    </div>
+	<hr>
+	<input type="text" placeholder="Pesquisar Nome" id="s1">&nbsp;          <!-- caixa de texto para inserir o nome que deseja ser procurado-->
+	<button onclick="searching()" id="srch">Pesquisar</button>              <!-- botão para ativar a procura, com searching() para procurar o nome escolhido-->
+	<p id="p2"></p>
+</center>
+		
+</body>
+</html>

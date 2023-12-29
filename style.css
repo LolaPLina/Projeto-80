@@ -1,0 +1,30 @@
+#submitButton {                 /*edita a margem do botão enviar*/
+	margin-top: 20px; 
+	margin-bottom: 20px; 
+}
+
+#sortButton {                   /*edita a margem e display do botão procurar*/
+	display: none;
+	margin-top: 20px; 
+	margin-bottom: 20px; 
+}
+
+input {                         /*edita a margem das caixas de texto*/
+	margin: 10px;
+}
+
+.displayNameWithCommas {                        /*edita display do nome com virgulas (sem estar organizado em uma lista)*/
+	border: 1px solid green;
+    padding: 10px;
+	background-color: greenyellow;
+	border-radius: 10px;
+    width: 50%;
+}
+
+#displayNameWithoutCommas {                     /*edita display da lista dos nomes (sem virgulas)*/
+	border: 1px solid red;
+    padding: 10px;
+    background-color: lightcoral;
+	border-radius: 10px;
+    width: 50%;
+}
